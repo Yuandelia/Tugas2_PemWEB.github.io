@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> External Link Style CSS </title>
+        <link rel="stylesheet" type="text/css" href="style1.css" />
+    </head>
+
+    <style>
+        body {
+            background-image: url(Pinguin.jpg);
+        }
+
+        h1 {
+            color: black;
+        }
+
+        ul {
+            color: aqua;
+        }
+
+        li {
+            color: black;
+        }
+
+        /* "isi Jamur" */
+        .highlight {
+            background-color: white; 
+            color: red; 
+            padding: 0 5px; 
+            border-radius: 3px;
+            font-weight: bold;
+        }
+    </style>
+
+    <h1>Daftar Belanja hari<em>Sabtu</em>:</h1>
+    <ul>
+        <li>Susu</li>
+        <li>Roti Tawar
+            <ul>
+                <li>Roti Gandum</li>
+                <li>Roti Gulung</li>
+                <li>Gandum Utuh</li>
+            </ul>
+        </li>
+        <li>Beras Pandan Wangi</li>
+        <li>Kentang</li>
+        <li>Pizza <em class="highlight">isi Jamur</em></li>
+    </ul>
+
+    <p><a class="nodec" href="http://www.alfacart.com">
+        Go to the alfacart store</a></p>
+
+</body>
+</html>
